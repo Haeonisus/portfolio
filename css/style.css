@@ -6,6 +6,21 @@
   box-sizing: border-box;
 }
 
+/* Skip to Main */
+a.skip {
+  left: 10px;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+}
+
+a.skip:focus {
+  left: 10px;
+  top: 10px;
+  color: white;
+  text-decoration-style: dotted;
+}
+
 /* Set background and text colors */
 
 body {
