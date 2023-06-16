@@ -248,6 +248,37 @@ div.project_four img {
   width: 25%;
 }
 
+div.project_five {
+  display: flex;
+  flex-direction: row;
+}
+
+div.project_five img {
+  width: 25%;
+}
+
+div.project_five_one {
+  display: flex;
+  flex-direction: row;
+}
+
+div.project_five_one img {
+  width: 33%;
+}
+
+div.project_five_two {
+  display: flex;
+  flex-direction: row;
+}
+
+div.project_five_two img {
+  width: 35%;
+}
+
+img.alone {
+  width: 40%;
+}
+
 /* Style the project1 section */
 
 section#project1 {
@@ -737,6 +768,10 @@ footer div {
 
   section#projects li {
     width: 60%;
+  }
+
+  img.alone {
+    width: 35%;
   }
 
   section#profile img.head {
